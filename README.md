@@ -7,6 +7,7 @@
 |----------|----------|----------|
 | <img src="https://github.com/user-attachments/assets/b9757e45-164a-4d03-bfc4-db7b6d6a8390" width="200" /> | <img src="https://github.com/user-attachments/assets/031d5a5d-5a21-4aef-8764-f682447fddfb" width="200" /> | <img src="https://github.com/user-attachments/assets/2a0566a4-8e0b-41d8-92c9-6fb1f9970d22" width="200" /> |
 
+
 📌 Descripción del Proyecto
 Este proyecto utiliza un ESP32 para controlar dos servomotores y un LED mediante una conexión Bluetooth. Además, implementa un sistema de seguimiento de luz que ajusta automáticamente los servomotores según la intensidad de luz detectada por sensores. El proyecto es ideal para aplicaciones como sistemas de seguimiento solar, robots autónomos o proyectos educativos.
 
@@ -16,12 +17,16 @@ Control manual de los servomotores a través de comandos Bluetooth.
 Modo automático para seguir fuentes de luz.
 Encendido y apagado del LED integrado.
 Envío periódico de datos de los sensores a través de Bluetooth.
+
+
 🛠️ Características Principales
   Control Bluetooth : Usa una aplicación móvil o terminal Bluetooth para enviar comandos al ESP32.
   Seguimiento de Luz Automático : Los servomotores se ajustan automáticamente hacia la fuente de luz más intensa.
   Interpolación Suave : Los movimientos de los servomotores son suaves gracias a un algoritmo de interpolación.
   Modo Manual y Automático : Cambia entre modos manual y automático según tus necesidades.
   Monitoreo en Tiempo Real : Envía datos de los sensores (luz y posición de los servos) cada 5 segundos.
+
+
 📦 Librerías Utilizadas
   Para ejecutar este proyecto, necesitarás las siguientes librerías:
 
@@ -61,6 +66,8 @@ Asegúrate de tener los siguientes componentes para replicar este proyecto:
     Abre el archivo .ino en el IDE de Arduino.
     Selecciona tu placa ESP32 en el IDE (Herramientas > Placa > ESP32 Dev Module).
     Sube el código a tu placa.
+
+
 ⚙️ Uso del Proyecto
   <h2 style="font-size: 24px; font-weight: bold; color: #00ff00; text-align: center;">📚 Comandos Bluetooth</h2>
 
